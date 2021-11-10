@@ -1,12 +1,14 @@
 #Functions
 def instructions():
-    print("***         Welcome to this Gaming Quiz         ***")
-    print("*** Were the success rate is extremely pitiful! ***")
-    print("***     To play you must answer 5 questions     ***")
-    print("***           All are multiple choice           ***")
-    print("***    Incorrect answers lead to punishment     ***")
-    print("***         Correct answers are rewarded        ***")
-    print("***     Score higher to earn a better grade     ***")
+    print("***          Welcome to this Gaming Quiz         ***")
+    print("*** Where the success rate is extremely pitiful! ***")
+    print("***     To play you must answer 5 questions      ***")
+    print("***           All are multiple choice            ***")
+    print("***    Incorrect answers lead to punishment      ***")
+    print("***         Correct answers are rewarded         ***")
+    print("***     Score higher to earn a better grade      ***")
+    print("***     Make sure to have no spaces or caps!     ***")
+
 
 #Main code
 score = 0
