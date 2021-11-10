@@ -26,7 +26,7 @@ else:
 
 quest_ask4 = input("What was the most popular Roblox game in 2021?")
 
-if quest_ask4 == "Piggy":
+if quest_ask4 == "piggy":
     print("Absolutely correct!")
     score += 1
 else:
