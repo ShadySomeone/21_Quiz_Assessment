@@ -34,7 +34,7 @@ else:
 
 quest_ask5 = input("How many copies of minecraft were sold in 2021?")
 
-if quest_ask5.strip() == "200million":
+if quest_ask5 == "200million":
     print("100% Correct!")
     score += 1
 else:
