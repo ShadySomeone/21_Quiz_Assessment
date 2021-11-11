@@ -63,18 +63,22 @@ if quest_ask5.strip() == "200million":
 else:
     print("Sadly, That's incorrect")
 
-#Figure out the users grading
+#Figure out the users grading and tell them their score
 if score == 0:
     grade = "F"
     print("Damn that's not good, Oh well there's always next time!")
+    print("Your score is {} and grade is {}".format(score, grade))
 elif score == 1 or score == 2:
     grade = "B"
     print("Oh no! So close!")
+    print("Your score is {} and grade is {}".format(score, grade))
 elif score == 3 or score == 4:
     grade = "A"
     print("Great job You win! Now try to get a better score!")
+    print("Your final score is {} and grade is {}".format(score, grade))
 else:
     grade = "S"
     print("Wow amazing! A perfect score!")
-# Tell the user their final grade
-print("Your grade is {}".format(grade))
+    print("Your score is {} and grade is {}".format(score, grade))
+
+
